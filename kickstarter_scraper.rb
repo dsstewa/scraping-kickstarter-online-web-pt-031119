@@ -9,4 +9,6 @@ def create_project_hash
   binding.pry
 end
 
+ title = project.css("h2.bbcard_name strong a").text
+ image_link = 
 binding.pry
