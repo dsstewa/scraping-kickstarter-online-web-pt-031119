@@ -11,4 +11,5 @@ end
 
  title = kickstarter.css("h2.bbcard_name strong a").text
  image_link = kickstarter.css("div.project-thumbnail a img").attribute("src").value
-binding.pry
+ 
+ description = kickstarter.css("p.bbcard_blurb").text
