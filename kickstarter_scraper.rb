@@ -9,6 +9,6 @@ def create_project_hash
   binding.pry
 end
 
- title = project.css("h2.bbcard_name strong a").text
- image_link = 
+ title = kickstarter.css("h2.bbcard_name strong a").text
+ image_link = kickstarter.css("div.project-thumbnail a img").attribute("src").value
 binding.pry
