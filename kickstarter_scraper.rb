@@ -25,3 +25,4 @@ end
 # image_link = kickstarter.css("div.project-thumbnail a img").attribute("src").value
  
 # description = kickstarter.css("p.bbcard_blurb").text
+binding.pry
